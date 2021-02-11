@@ -12,7 +12,7 @@
             <input type="text" class="form-control" [formControlName]="'url'" style="margin-top: 5px" placeholder="URL">
   
             <select class="form-control" style="margin-top: 10px" [formControlName]="'subredditName'">
-              <option value="" selected disabled>Select Subreddit</option>
+              <option value="" selected disabled>Select Topic</option>
               <option *ngFor="let subreddit of subreddits">{{subreddit.name}}</option>
             </select>
   
